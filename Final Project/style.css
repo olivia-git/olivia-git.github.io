@@ -3,14 +3,25 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  background-image:url("https://res.cloudinary.com/olivia/image/upload/c_scale,o_41,w_2000/v1591016393/drew-coffman-tZKwLRO904E-unsplash_xsvn6i.jpg");
+  background-image:url("https://res.cloudinary.com/olivia/image/upload/c_scale,o_35,q_100,w_1500/v1592220883/Crepe%20N'Go/13643102_1452800421404115_1415680747_n_q8u8in.jpg");
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
 }
 .jumbotron{
-  background-image: url("https://res.cloudinary.com/olivia/image/upload/c_scale,o_74,q_100,w_266/v1592224710/Crepe%20N'Go/14334363_1184163091642638_5632317827328245760_n_vgqmaz.jpg");
+  background: url("https://res.cloudinary.com/olivia/image/upload/c_scale,o_74,q_100,w_266/v1592224710/Crepe%20N'Go/14334363_1184163091642638_5632317827328245760_n_vgqmaz.jpg") top center fixed;
   background-size: cover;
+}
+.jumbotron2{
+  background-color: #F1F1F1;
+  background-size: cover;
+}
+.jumbotron3{
+  background-image: url("https://res.cloudinary.com/olivia/image/upload/c_scale,h_900,w_1300/v1592237106/Crepe%20N'Go/37075192_2180454498910822_1717866856884207616_n_hjs1nn.jpg");
+  background-size: cover;
+  margin-top: 1em;
+  padding-top: 8em;
+  padding-bottom: 3em;
 }
 .navbar{
   padding: .8rem;
@@ -101,6 +112,7 @@ hr.light-100{
 
 /*---Media --*/
 @media (max-width: 992px) {
+  }
 
 @media (max-width: 768px) {
   .carousel-caption {
